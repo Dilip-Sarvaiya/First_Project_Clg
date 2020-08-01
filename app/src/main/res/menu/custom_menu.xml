@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/mnuSplash"
+            android:title="Splash Screen" />
+        <item
+            android:id="@+id/mnuLogin"
+            android:title="Login Screen" />
+        <item
+            android:id="@+id/mnuAbout"
+            android:title="About Screen" />
+        <item
+            android:id="@+id/mnuContact"
+            android:title="Contact Screen" />
+
+
+</menu>
