@@ -131,15 +131,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
                 tools:layout_editor_absoluteX="8dp" />
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="410dp"
-                android:layout_height="95dp"
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
                 android:layout_marginTop="8dp"
+                android:background="@drawable/lower"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/send"
-                app:srcCompat="@drawable/lower" />
+                app:layout_constraintTop_toBottomOf="@+id/send" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>

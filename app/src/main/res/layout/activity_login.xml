@@ -122,15 +122,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-            <ImageView
-                android:id="@+id/imageView8"
+            <View
+                android:id="@+id/view"
                 android:layout_width="match_parent"
-                android:layout_height="96dp"
+                android:layout_height="116dp"
                 android:layout_marginTop="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button3"
-                app:srcCompat="@drawable/lower" />
+                android:background="@drawable/lower"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
