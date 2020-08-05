@@ -38,7 +38,7 @@
                 android:shadowDy="4"
                 android:shadowRadius="10"
                 android:text="Login Here"
-                android:textColor="@color/primary"
+                android:textColor="@color/topview"
                 android:textSize="36sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
