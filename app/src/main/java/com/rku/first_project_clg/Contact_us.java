@@ -25,12 +25,6 @@ public class Contact_us extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()){
-            case R.id.mnuSplash:
-                Intent intentContact=new Intent(Contact_us.this,Splash_Screen.class);
-                startActivity(intentContact);
-                Toast.makeText(this, "Splash Clicked", Toast.LENGTH_SHORT).show();
-                break;
-
             case R.id.mnuLogin:
                 Intent intentlogin=new Intent(Contact_us.this,Login_Screen.class);
                 startActivity(intentlogin);

@@ -26,12 +26,6 @@ public class Login_Screen extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()){
-            case R.id.mnuSplash:
-                Intent intentsplash=new Intent(Login_Screen.this,Splash_Screen.class);
-                startActivity(intentsplash);
-                Toast.makeText(this, "Splash Clicked", Toast.LENGTH_SHORT).show();
-                break;
-
             case R.id.mnuLogin:
                 Toast.makeText(this, "Login Clicked", Toast.LENGTH_SHORT).show();
                 break;

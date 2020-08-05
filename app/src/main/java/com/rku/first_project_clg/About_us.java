@@ -26,12 +26,6 @@ public class About_us extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()){
-            case R.id.mnuSplash:
-                Intent intentsplash=new Intent(About_us.this,Splash_Screen.class);
-                startActivity(intentsplash);
-                Toast.makeText(this, "Splash Clicked", Toast.LENGTH_SHORT).show();
-                break;
-
             case R.id.mnuLogin:
                 Intent intentlogin=new Intent(About_us.this,Login_Screen.class);
                 startActivity(intentlogin);
@@ -48,7 +42,6 @@ public class About_us extends AppCompatActivity {
                 Toast.makeText(this, "Contact Clicked", Toast.LENGTH_SHORT).show();
                 break;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
