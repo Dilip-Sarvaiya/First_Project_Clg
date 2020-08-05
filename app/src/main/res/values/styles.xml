@@ -10,7 +10,7 @@
     <style name="contact_styles">
         <item name="android:padding">10dp</item>
         <item name="android:paddingTop">24dp</item>
-        <item name="android:textColorHint">@color/icons</item>
+        <item name="android:textColorHint">@color/secondary_text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginEnd">8dp</item>

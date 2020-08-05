@@ -5,13 +5,24 @@
     android:id="@+id/ScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg3"
     tools:context=".Contact_us">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:background="@color/topview" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:background="@drawable/upper" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout"
@@ -44,7 +55,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Contact Us"
                 android:textAlignment="center"
-                android:textColor="@color/icons"
+                android:textColor="@color/topview"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -109,10 +120,6 @@
                 android:id="@+id/send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="32dp"
                 android:background="@drawable/round_corner"
                 android:padding="20dp"
                 android:shadowColor="@color/favorite"
@@ -121,10 +128,18 @@
                 android:text="Log In"
                 android:textColor="@color/icons"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+                tools:layout_editor_absoluteX="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="410dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+                app:layout_constraintTop_toBottomOf="@+id/send"
+                app:srcCompat="@drawable/lower" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
