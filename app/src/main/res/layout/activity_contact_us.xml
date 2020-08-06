@@ -15,7 +15,7 @@
         <View
             android:id="@+id/view5"
             android:layout_width="match_parent"
-            android:layout_height="119dp"
+            android:layout_height="80dp"
             android:background="@color/topview" />
 
         <View
@@ -71,6 +71,8 @@
                 style="@style/contact_styles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:drawableStart="@drawable/ic_account_circle_48px"
                 android:hint=" Name"
                 android:inputType="textEmailAddress"
@@ -83,9 +85,12 @@
                 style="@style/contact_styles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:drawableStart="@drawable/ic_email_48px"
                 android:hint=" Email"
                 android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/name" />
 
@@ -94,7 +99,9 @@
                 style="@style/contact_styles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:drawableStart="@drawable/ic_location"
                 android:hint=" Location"
                 android:inputType="textEmailAddress"
@@ -107,7 +114,9 @@
                 style="@style/contact_styles"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:drawableStart="@drawable/ic_msg"
                 android:gravity="start|top"
                 android:hint=" Message"
@@ -120,16 +129,19 @@
                 android:id="@+id/send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:background="@drawable/round_corner"
                 android:padding="20dp"
                 android:shadowColor="@color/favorite"
                 android:shadowDx="2"
                 android:shadowDy="5"
-                android:text="Log In"
+                android:text="Send"
                 android:textColor="@color/icons"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
-                tools:layout_editor_absoluteX="8dp" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 
             <View
                 android:id="@+id/view6"
