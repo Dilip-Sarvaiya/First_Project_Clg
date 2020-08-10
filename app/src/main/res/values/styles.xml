@@ -24,4 +24,12 @@
         <item name="android:shadowRadius">2</item>
     </style>
 
+    <style name="image_corner">
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <style name="entire_padding">
+        <item name="android:paddingLeft">50dp</item>
+    </style>
+
 </resources>
